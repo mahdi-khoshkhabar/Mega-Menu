@@ -26,7 +26,7 @@
     position: absolute;
     width: 100%;
     list-style: none;
-    bottom: 1vh;
+    bottom: 0;
     inset-inline-start: 1vw;
     gap: 2%;
 }
@@ -34,6 +34,7 @@
 .nav-list li {
     border: 1px solid gray;
     padding: 0.5rem;
+    margin-bottom: 1vh;
 }
 
 .header:has(.nav-list li:nth-child(1):hover) .big-menu {
